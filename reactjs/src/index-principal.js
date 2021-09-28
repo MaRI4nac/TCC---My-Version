@@ -13,6 +13,9 @@ export default function SiteCompleto () {
             <Botao className="idai"> <Link to="/esqueceusenha"> Esqueceu Senha </Link> </Botao>
             <Botao className="idai"> <Link to="/novasenha"> Nova Senha </Link> </Botao>
             <Botao className="idai"> <Link to="/admlogin"> ADM Login </Link> </Botao>
+            <Botao className="idai"> <Link to="/buscadireta"> Busca Direta </Link> </Botao>
+            <Botao className="idai"> <Link to="/buscadirecionada"> Busca Directionada </Link> </Botao>
+            <Botao className="idai"> <Link to="/ingressos"> Ingressos </Link> </Botao>
         </div>
     )
 }

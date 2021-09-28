@@ -2,7 +2,7 @@ import { Container } from './styled'
 import Cabecalho from '../../../components/cabecalho'
 
 
-export default function BuscaDireta() {
+export default function BuscaDirecionada () {
     return (
         <Container>
             <Cabecalho />
