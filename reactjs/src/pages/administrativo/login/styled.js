@@ -1,11 +1,11 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
-const Log = styled.div `
+const ADMLog = styled.div`
 
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-image: url("/assets/images/fundo-tela-login.svg");
+    background-image: url("/assets/images/Rectangle 178.svg");
     background-size: 100%;
     height: 100vh;
 
@@ -29,12 +29,10 @@ const Log = styled.div `
     margin-bottom: 1em;
 }
 
-.log-digit {
-}
-
 .log-inputs {
     display: flex;
     flex-direction: column;
+    margin-bottom: 3em;
 }
 
 input {
@@ -44,44 +42,21 @@ input {
     width: 40em;
     padding: 1em 1em;
     margin: 0.3em;
+    margin-bottom: 1em;
 }
 
- input::placeholder {
+input::placeholder {
     color:#ADD8E6;
     padding-left: 1em;
     font-size: 1em;
     font-weight: 700;
 }
 
-input:focus {
-    color: #ADD8E6;
-    padding-left: 1em;
-}
-
-.log-esqueci-senha {
-    display: flex;
-    justify-content: flex-end;
-    text-decoration: underline;
-    margin-bottom: 1em;
-    font-size: 0.8em;
-}
-
-.log-botoes {
-    display: flex;
-    flex-direction: column;
-}
-
-.log-nao-tem-conta {
-    margin-bottom: 0.2em;
-    font-size: 0.8em;
-}
-
 .log-bot-bot {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 `
 
-export { Log }
+export { ADMLog }
