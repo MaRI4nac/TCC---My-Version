@@ -9,7 +9,7 @@ const Log = styled.div `
     background-size: 100%;
     height: 100vh;
 
-    padding: 5em 5em;
+    padding: 13em 5em;
     color:#ADD8E6;
 
 .tela-login {
@@ -18,6 +18,13 @@ const Log = styled.div `
     padding: 3em 10em;
     background: rgba(47, 79, 79, 0.8);
     border: 0.4em solid #ADD8E6;
+    justify-content: center;
+}
+
+.acess-buttons {
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .log-titulo {

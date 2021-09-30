@@ -4,7 +4,6 @@ const CriarConta = styled.div`
 
     display: flex;
     flex-direction: column;
-    padding: 1.5em 10em;
     text-align: center;
     background: rgba(47, 79, 79, 0.8);
     height: 100vh;
@@ -19,7 +18,7 @@ const CriarConta = styled.div`
 
 .tela-cadastrese {
     border: 0.25em solid #ADD8E6;
-    padding: 1em;
+    padding: 2em 7em;
 }
 
 .cadast-titulo {

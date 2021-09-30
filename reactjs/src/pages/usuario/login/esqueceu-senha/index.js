@@ -1,4 +1,6 @@
-import {Container, Button } from './styled';
+
+import { Botao } from '../../../../components/botoes/styled';
+import {Container } from './styled';
 
 export default function ForgotPassword () {
     return (
@@ -14,7 +16,7 @@ export default function ForgotPassword () {
                 </div>
 
                 <div className = "Button">
-                    <Button> Criar Conta </Button>
+                    <Botao>  Criar Conta </Botao>
                 </div> 
             </div>
         </Container>

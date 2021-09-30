@@ -16,7 +16,7 @@ const Container = styled.div`
     }
 
     img {
-        height: 10vh;
+        height: 8vh;
         width: auto;
     }
 
@@ -24,13 +24,13 @@ const Container = styled.div`
         outline: none;
         background-color: rgba(240, 248, 255, 0.3);
         border: 1px solid transparent;
-        height: 50%;
+        height: 40%;
         width: 45%;
-        border-radius: 20px;
+        border-radius: 0.5em;
         padding-left: 1rem;
 
         color: white;
-        font-size: 1.5em;
+        font-size: 1.2em;
 
         ::-webkit-input-placeholder { /* Edge */
             color: rgba(255, 255, 255, 0.5);

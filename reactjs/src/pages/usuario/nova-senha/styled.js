@@ -11,15 +11,15 @@ const Container = styled.div`
     background-image: url('/assets/images/LOGO TCC - P3 NWS 3.svg');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 120vh 100vh;  
+    background-size: 40%;  
 
     .Box-password {
         display: flex; 
         flex-direction: column; 
         align-items: center;  
 
-        width: 90vh; 
-        height: 65vh; 
+        width: 75vh; 
+        height: 45vh; 
         
         border-style: outset;
         border-color:  #ADD8E6; 
@@ -27,7 +27,7 @@ const Container = styled.div`
 
     .Title {
         color: #ADD8E6;
-        font-size: 2.5em; 
+        font-size: 2em; 
 
         text-transform: uppercase;
         padding: 65px 0px 50px 0px;
@@ -42,20 +42,34 @@ const Container = styled.div`
         align-items: center; 
     }
 
-    .Inputs > input {
-        width: 60vh; 
-        padding: 15px 0px 15px 0px;
-        margin-bottom: 20px; 
 
-        border-radius: 10px; 
+    .Inputs > input {
+        border: none;
+        background: rgba(112, 128, 144, 0.4);
+        border-radius: 8px;
+        width: 40em;
+        padding: 1em 1em;
+        margin: 0.3em;
+    }
+    
+     input::placeholder {
+        color:#ADD8E6;
+        padding-left: 1em;
+        font-size: 1em;
+        font-weight: 700;
+    }
+    
+    input:focus {
+        color: #ADD8E6;
+        padding-left: 1em;
     }
 
     .Warning {
         display: flex; 
-        padding-bottom: 20px; 
+        padding: 3% 0% 3% 0%;  
         color: #ADD8E6; 
-        font-size: 18px; 
-        margin-right: 10px; 
+        font-size: 1em; 
+       
 
     }
 
