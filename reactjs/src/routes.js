@@ -10,6 +10,7 @@ import NWSLogar from "./pages/usuario/login/logar"
 import BuscaDireta from "./pages/usuario/busca-direta"
 import Ingressos from './pages/usuario/ingressos/index.js';
 import BuscaDirecionada from './pages/usuario/busca-direcionada/index.js';
+import TelaInicial from './pages/usuario/principal'
 
 export default function Routes() {
     return (
@@ -26,6 +27,7 @@ export default function Routes() {
                 <Route path="/buscadireta" component={BuscaDireta} />
                 <Route path="/buscadirecionada" component={BuscaDirecionada} />
                 <Route path="/ingressos" component={Ingressos} />
+                <Route path="/inicial" component={TelaInicial} />
             </Switch>
         </BrowserRouter>
     )
