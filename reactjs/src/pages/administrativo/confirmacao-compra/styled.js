@@ -10,10 +10,10 @@ const Container = styled.div`
     justify-content: center; 
     align-items: center; 
 
-    height: 115vh; 
+    height: 100vh; 
 
-    
     .Tickets {
+
         margin-top: 10px; 
         display: flex; 
         flex-direction: column;
@@ -22,7 +22,7 @@ const Container = styled.div`
 
         background-color: rgba(103, 128, 128, 0.4);
 
-        width: 160vh; 
+        width: 100%; 
         height: 80vh; 
 
         align-items: center; 
@@ -35,14 +35,11 @@ const Container = styled.div`
         justify-content: space-evenly; 
 
         border-radius: 35px; 
-        border: 5px solid white; 
-        width: 145vh; 
+        width: 80%; 
         height: 20vh; 
         align-items: center;
 
-        background-position: top; 
-        background: url("/assets/images/NWS-background-ticket.png"); 
-        background-repeat: no-repeat; 
+        box-shadow: 2px 1px 20px 9px #2f4f4f;
     }
 
     .Event-Information {
@@ -54,7 +51,7 @@ const Container = styled.div`
 
     .Buttons-confirm > button {
         border-radius: 80px;
-         
+        
     }
 
     .Title {
@@ -63,18 +60,17 @@ const Container = styled.div`
     }
 
     .Caption-top {
-        font-size: 1.6em; 
-        font-weight: bold; 
+        font-size: 1.6em;
+        font-weight: bold;
+        margin-left: 10%;
     }
 
     .Text { 
-      align-self: start; 
-      margin-left: 35vh; 
-
-      width: 150vh; 
+    align-self: start; 
+    width: 100%; 
 
     }
-    
+
     .Title-top {
         font-size: 2em; 
         font-weight: bold; 
@@ -82,7 +78,6 @@ const Container = styled.div`
         text-align:center; 
         padding-bottom: 50px;
     }
-   
 `
 
 
