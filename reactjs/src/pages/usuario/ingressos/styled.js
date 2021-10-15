@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 const Container = styled.div`
     min-height: 100vh;
-    background: linear-gradient(180deg, rgba(26, 73, 73, 0.83) 0%, rgba(47, 79, 79, 0.83) 0.01%, rgba(33, 108, 108, 0.57) 53.84%, rgba(47, 79, 79, 0.89) 100%);
+    background: linear-gradient(180deg, rgba(23, 61, 64, 0.92) 0%, rgba(23, 61, 64, 0.899330) 15%, rgba(47, 79, 79, 0.90) 38.42%, rgba(47, 79, 79, 0.90) 40.42%);https://github.com/MaRI4nac/TCC---My-Version.git
     display: flex;
     flex-direction: column;
     align-items: center;

@@ -11,6 +11,8 @@ import BuscaDireta from "./pages/usuario/busca-direta"
 import Ingressos from './pages/usuario/ingressos/index.js';
 import BuscaDirecionada from './pages/usuario/busca-direcionada/index.js';
 import TelaInicial from './pages/usuario/principal'
+import IngressoAberto from './pages/usuario/ingresso-aberto'
+import AdicionarEvento from './pages/administrativo/adicionar-evento'
 
 export default function Routes() {
     return (
@@ -28,6 +30,8 @@ export default function Routes() {
                 <Route path="/buscadirecionada" component={BuscaDirecionada} />
                 <Route path="/ingressos" component={Ingressos} />
                 <Route path="/inicial" component={TelaInicial} />
+                <Route path="/ingressoAberto" component={IngressoAberto} />
+                <Route path="/adicionarEvento" component={AdicionarEvento} />
             </Switch>
         </BrowserRouter>
     )

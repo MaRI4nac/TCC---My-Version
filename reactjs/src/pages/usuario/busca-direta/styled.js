@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 const Container = styled.div`
-    background-color: rgb(18, 61, 61, 0.8);
+    background: linear-gradient(180deg, rgba(23, 61, 64, 0.92) 0%, rgba(23, 61, 64, 0.899330) 15%, rgba(47, 79, 79, 0.874) 38.42%, rgba(47, 79, 79, 0.878) 40.42%);
     min-height: 100vh;
     width: 100%;
     color: white;

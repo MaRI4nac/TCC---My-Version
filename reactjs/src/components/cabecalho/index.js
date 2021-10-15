@@ -1,3 +1,4 @@
+import { Botao } from '../botoes/styled'
 import { Container } from './styled'
 
 

@@ -12,8 +12,8 @@ const Container = styled.div`
 
     height: 115vh; 
 
+    
     .Tickets {
-
         margin-top: 10px; 
         display: flex; 
         flex-direction: column;
@@ -40,8 +40,8 @@ const Container = styled.div`
         height: 20vh; 
         align-items: center;
 
-        background: url("/assets/images/NWS-background-ticket.png"); 
         background-position: top; 
+        background: url("/assets/images/NWS-background-ticket.png"); 
         background-repeat: no-repeat; 
     }
 

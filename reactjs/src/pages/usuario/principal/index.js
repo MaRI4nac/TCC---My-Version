@@ -4,9 +4,9 @@ import { Container } from './styled'
 export default function Principal() {
     return (
         <Container>
-         <Cabecalho />
            <div className="header"> 
-                <div className="bg-white"> 
+             <Cabecalho/>
+             <div className="bg-white"> 
                     <img src="/assets/images/logo TCC com escrita.svg" alt="" />
                 </div>
            </div>
@@ -29,17 +29,19 @@ export default function Principal() {
                     </div>
                 </div>
                 <div className="principal"> 
-                    <h1> EVENTOS EM DESTAQUE </h1>
+                    <div className = "Eventos"> 
+                        <h1> EVENTOS EM DESTAQUE </h1>
+                    </div>
                     <div className="box-principal"> 
-                        <img src="/assets/images/principal-box.png" alt="" />
-                        <div className="box-text"> 
-                            <h1> Cada Um Tem o Anjo Que Merece </h1>
-                            <div> Comédia, 80 minutos, 12 anos. </div>
-                            <p> <b> Sinopse: </b> 
-                                Nesta comédia, o casal, Osvaldo e Quitéria, vive às turras, brigando e se desentendendo a todo momento, por qualquer motivo. Os dois estão nos seus limites e prestes a se separarem quando algo surpreendente acontece. Lá no céu os Deuses decidem que eles merecem uma atenção especial para ajudar a refazer esse amor tão desgastado pelo tempo. Dirigida por Wesley Leal.
-                            </p>
-                            <button> SAIBA MAIS </button>
-                        </div>
+                            <img src="/assets/images/principal-box.png" alt="" />
+                            <div className="box-text"> 
+                                <h1> Cada Um Tem o Anjo Que Merece </h1>
+                                <div> Comédia, 80 minutos, 12 anos. </div>
+                                <p> <b> Sinopse: </b> 
+                                    Nesta comédia, o casal, Osvaldo e Quitéria, vive às turras, brigando e se desentendendo a todo momento, por qualquer motivo. Os dois estão nos seus limites e prestes a se separarem quando algo surpreendente acontece. Lá no céu os Deuses decidem que eles merecem uma atenção especial para ajudar a refazer esse amor tão desgastado pelo tempo. Dirigida por Wesley Leal.
+                                </p>
+                                <button> SAIBA MAIS </button>
+                            </div>
                     </div>
                     <div className="box-principal"> 
                         <div className="box-text"> 
